@@ -1,0 +1,17 @@
+These are projects that are not JavaScript primarily but that Github classifies as JavaScript, probably because of the inclusion of MochiKit, jQuery, etc.
+
+https://github.com/thraxil/skinflint (python/django)
+https://github.com/thraxil/maut (python/django)
+https://github.com/thraxil/myopica (python/django)
+https://github.com/thraxil/mithras (python/django)
+https://github.com/thraxil/sebastian (python/django)
+https://github.com/thraxil/ccdb (python/django)
+https://github.com/thraxil/ccnmtldjango (python/django)
+https://github.com/thraxil/fu (python/django)
+https://github.com/thraxil/modus (python/django)
+https://github.com/thraxil/tagwiki (python/django)
+https://github.com/ccnmtl/pmt (perl)
+https://github.com/ccnmtl/rolf (python/django)
+https://github.com/ccnmtl/smart_sa (python/django though this one is pretty JS heavy)
+https://github.com/ccnmtl/npo (python/django)
+https://github.com/ccnmtl/rollo (python/TurboGears)
