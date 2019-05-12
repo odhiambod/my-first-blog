@@ -25,7 +25,7 @@ SECRET_KEY = 'y1nc2gms(j&y8cqx-@d22xhqu#xgb25w%dqv^#0&6vv^_qssuw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'finsys.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,"templates")],
+        'DIRS': [os.path.join(BASE_DIR,"blog/templates/blog")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
