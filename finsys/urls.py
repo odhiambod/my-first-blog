@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from pages.views import home_view,Code_view,About_view,Accmassage_view,AccNumber_view,AccrRecl_view,AccRec_view,AccRecOrg_view,AddEditUser_view,AppSettings_view,ApprDateSet_view,ApprReqTrn_view,AutoBatch_view,BackDateRol_view,Backup_view,BalOff_view,BatList_view,BatNew_view, BatTrn_view,BrDet_view,BrLang_view,Brow_view,CapEditSign_view,CenMetDate_view,ChgCID_view,ChgCIDApp_view,ChgIntMode_view,ChgIntRate_view,ChgSinTory_view,ChgUserPass_view,Chrg_view,ChrOfAcc_view,ChqPrVoid_view,ChqPrLoan_view,ChqPrLoanA_view,ChqPrLoanApr_view,ChqBook_view,ChqBookCan_view,ChqDep_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls')),
+    path('blog/', include('blog.urls')),
+   # path('pages/', include('pages.urls')),
 ]
